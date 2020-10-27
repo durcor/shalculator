@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int fib(int n, int cur, int pre)
+long double fib(int n, long double cur, long double pre)
 {
 	if (n == 1)
 		return cur;
@@ -16,6 +16,6 @@ int main(int argc, char** argv)
 		return 1;
 	}
 
-	printf("%i\n", fib(atoi(argv[1]), 1, 0));
+	printf("%Lf\n", fib(atoi(argv[1]), 1, 0));
 	return 0;
 }
