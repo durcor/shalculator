@@ -15,3 +15,6 @@ cd shalculator
 # Installs to /bin/ by default
 sh ./install.sh
 ```
+
+# TODO
+- sine/cosine/tangent
