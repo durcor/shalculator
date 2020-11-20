@@ -1,5 +1,5 @@
 # shalculator
-A calculator with a shell interface with a LISP-like scripting interface.
+A shell-centric calculator with a with a LISP-like scripting interface. 
 
 # Usage
 ```sh
@@ -18,3 +18,5 @@ sh ./install.sh
 
 # TODO
 - sine/cosine/tangent
+- simplify a number to scientific notation (Decimal places to round to as an optional argument)
+- remove trailing decimal zeros
